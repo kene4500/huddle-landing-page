@@ -106,7 +106,7 @@ p, b {
   margin-top: 4em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -20px;
+  margin-bottom: -30px;
   text-align: center;
   width: 350px;
   height: auto;
@@ -128,4 +128,52 @@ p, b {
 footer{
   background-color: #00252e;
   padding: 5em;
+  display: flex;
+  flex-direction: row;
+}
+footer p{
+  color: white;
+  font-size: 10px;
+}
+footer img{
+  width: 15px;
+  height: auto;
+  margin-right: 1em;
+}
+#footerLogo{
+  width: 200px;
+  height: auto;
+}
+.footerOneDIV{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.one{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.two{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.three{
+  width: auto;
+  height: auto;
+}
+small{
+  margin-top: 800em;
+  color: white;
 }
