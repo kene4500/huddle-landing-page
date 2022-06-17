@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -16,6 +16,7 @@ main {
   padding: 1em;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3em;
 }
 #bodyDIV {
   display: flex;
@@ -36,7 +37,7 @@ main {
   padding-top: 10px;
   padding-bottom: 10px;
   border: cornflowerblue solid;
-  font-size: 10px
+  font-size: 10px;
 }
 #getStartedFreeBtn {
   background-color: #f854c3;
@@ -59,19 +60,45 @@ main {
 #headerDIV {
   margin: 1em;
 }
-.describeDIV{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 1em;
+.describeDIV {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
 }
-#spaceUnder{
+#spaceUnder {
   margin-bottom: 1em;
 }
 
-h1, h3{
+h1,
+h3 {
   font-family: Poppins;
   font-weight: 600;
 }
-p{
+p {
   font-family: Open Sans;
+}
+.growTogether, .yourUsers, .peopleTalking {
+  border: #c5bfbf solid;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+#growTogetherImage, #yourUsers {
+  width: 60%;
+  height: auto;
+  float: right;
+}
+#peopleTalking{
+  width: 60%;
+  height: auto;
+  float: left;
+}
+.growTogether p, .yourUsers p, .peopleTalking p {
+  color: #adaeaf;
+}
+.describeGrow, .describeUsers, .describePeopleTalking{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
 }
