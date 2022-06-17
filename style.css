@@ -69,39 +69,48 @@ main {
   margin-bottom: 1em;
 }
 
-h1, h3 {
+h1,
+h3 {
   font-family: Poppins;
   font-weight: 600;
 }
-p, b {
+p,
+b {
   font-family: Open Sans;
 }
-.growTogether, .yourUsers, .peopleTalking {
+.growTogether,
+.yourUsers,
+.peopleTalking {
   border: #c5bfbf solid;
   padding: 2em;
   display: flex;
   flex-direction: row;
   margin-bottom: 1em;
 }
-#growTogetherImage, #yourUsers {
+#growTogetherImage,
+#yourUsers {
   width: 60%;
   height: auto;
   float: right;
 }
-#peopleTalking{
+#peopleTalking {
   width: 60%;
   height: auto;
   float: left;
 }
-.growTogether p, .yourUsers p, .peopleTalking p {
+.growTogether p,
+.yourUsers p,
+.peopleTalking p {
   color: #adaeaf;
 }
-.describeGrow, .describeUsers, .describePeopleTalking{
+.describeGrow,
+.describeUsers,
+.describePeopleTalking {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 1em;
 }
-.bottomMainDIV{
+.bottomMainDIV {
   padding: 1em;
   margin-top: 4em;
   margin-left: auto;
@@ -113,7 +122,7 @@ p, b {
   border: #adaeaf solid;
   border-radius: 10px;
 }
-#bottomBtn{
+#bottomBtn {
   background-color: #f854c3;
   color: white;
   font-size: 10px;
@@ -125,55 +134,112 @@ p, b {
   padding-bottom: 10px;
   border: none;
 }
-footer{
+footer {
   background-color: #00252e;
   padding: 5em;
   display: flex;
   flex-direction: row;
 }
-footer p{
+footer p {
   color: white;
   font-size: 10px;
 }
-footer img{
+footer img {
   width: 15px;
   height: auto;
   margin-right: 1em;
 }
-#footerLogo{
+#footerLogo {
   width: 200px;
   height: auto;
 }
-.footerOneDIV{
+.footerOneDIV {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
-.one{
+.one {
   display: flex;
   flex-direction: row;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-a{
+a {
   color: white;
   text-decoration: none;
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
 }
-.two{
+.two {
   width: 20%;
   display: flex;
   flex-direction: column;
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.three{
+.three {
   width: auto;
   height: auto;
 }
-small{
+small {
   margin-top: 800em;
   color: white;
+}
+#getStartedFreeBtn:hover,
+#bottomBtn:hover {
+  background-color: #f854c4a2;
+}
+@media screen and (max-width: 375px) {
+  main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #bodyDIV {
+    display: flex;
+    flex-direction: column;
+  }
+  #mockup {
+    margin: auto;
+  }
+  #logo {
+    margin: auto;
+  }
+  .growTogether,
+  .yourUsers,
+  .peopleTalking {
+    display: flex;
+    flex-direction: column;
+  }
+  #growTogetherImage,
+  #yourUsers {
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
+  #peopleTalking {
+    width: 60%;
+    height: auto;
+    margin: auto;
+  }
+  .bottomMainDIV {
+    margin: auto;
+  }
+  .one {
+    display: flex;
+    flex-direction: row;
+  }
+  img{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
